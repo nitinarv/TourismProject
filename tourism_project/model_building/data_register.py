@@ -3,7 +3,7 @@ from huggingface_hub import HfApi, create_repo
 import os
 
 
-repo_id = "RedRooster99/wellness-tourism-prediction-dataset"
+repo_id = "RedRooster99/wellness-tourism-prediction"
 
 repo_type = "dataset"
 
