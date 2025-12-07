@@ -22,10 +22,10 @@ mlflow.set_experiment("wellness-tourism-training-experiment")
 api = HfApi()
 
 
-Xtrain_path = "hf://datasets/RedRooster99/wellness-tourism-prediction/Xtrain.csv"
-Xtest_path = "hf://datasets/RedRooster99/wellness-tourism-prediction/Xtest.csv"
-ytrain_path = "hf://datasets/RedRooster99/wellness-tourism-prediction/ytrain.csv"
-ytest_path = "hf://datasets/RedRooster99/wellness-tourism-prediction/ytest.csv"
+Xtrain_path = "hf://datasets/RedRooster99/wellness-tourism-prediction-dataset/Xtrain.csv"
+Xtest_path = "hf://datasets/RedRooster99/wellness-tourism-prediction-dataset/Xtest.csv"
+ytrain_path = "hf://datasets/RedRooster99/wellness-tourism-prediction-dataset/ytrain.csv"
+ytest_path = "hf://datasets/RedRooster99/wellness-tourism-prediction-dataset/ytest.csv"
 
 Xtrain = pd.read_csv(Xtrain_path)
 Xtest = pd.read_csv(Xtest_path)
